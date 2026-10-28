@@ -1,0 +1,19 @@
+{
+  "name": "song-pirate-backend",
+  "version": "1.0.0",
+  "description": "Spotify to MP3 converter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "jszip": "^3.10.1",
+    "yt-dlp": "^1.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
